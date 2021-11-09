@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"); 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"); 
+
+ 
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: flex;
+   
+  }
+
+img:hover {
+    cursor: pointer; 
+    -webkit-filter: brightness(70%);
+}
+
+header {
+    background-color:white;
+    width: 99%;
+    padding: 23px;
+    height: 23px;
+    position: fixed;
+    top: 0;
+}
+
+#claw:hover {
+    background-image: url(orangeclaw.png);
+}
+
+.headliner {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 16px; 
+    color: black;
+}   
+   
+.headliner:hover {
+     color:tomato;
+
+}
+
+.headliner:hover {
+    cursor: pointer;
+}
+
+.headertxt {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 23px; 
+    letter-spacing: 0.2em;
+}
+
+.titles {
+    font-family: 'Amatic Sc', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.amatictxt {
+    font-family: 'Amatic Sc', sans-serif;
+    font-size: 60px;
+
+}
+
+.montetxt {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black; 
+    font-size: 13px;
+    letter-spacing: 0.1em; 
+    text-align: justify;
+}
+
+.passeiotxt {
+    font-family: 'Amatic Sc', sans-serif;
+    font-size: 40px;
+    line-height: 1,33em;
+}
+
+.linha {
+    height: 1.5px;
+    width: 250px;
+    background-color: white;
+
+}
+
+.verticalright {
+ height: 100%; 
+  width: 140px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color:whitesmoke;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-left: 96.5%;
+}
+
+.verticalrightitems {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.phonebox {
+    position: absolute;
+    background-color: black;
+    width: 10%;
+    height: 40px;
+    color: white;
+    top: 0;
+    
+}
+
+.insidephone {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+}
+
+.firstbox {
+    border-color: rgb(244, 236, 225);
+    width: 93%;
+    height: 650px; 
+    background-color: rgb(244, 236, 225);
+    margin-left: 4%;
+    margin-right: 20%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+
+.secondboxes {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+.whobx {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    align-items: center;
+    padding: 30%;
+    display:flex;
+
+}
+
+.passeiobox {
+    width: 380px;
+    height: 380px;
+    background-color: rgb(244, 236, 225); 
+    display: flex; 
+    flex-direction: column;
+    align-items: center
+
+}
+
+.dogboxes{
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.lastbox {
+    border-color: rgb(244, 236, 225);
+    width: 93%;
+    height: 350px; 
+    background-color: rgb(244, 236, 225);
+    margin-left: 5.5%;
+    margin-right: 20%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    
+}
+
+input {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+}
+.inputwhite {
+    border-style: none;
+    background-color: white;
+    border-radius: 25px;
+    color: black;
+    padding: 15px; 
+    width: 160px; 
+    height: 45px;
+
+}
+
+.inputheader {
+    border-style: none;
+    background-color: rgb(255, 118, 72);
+    border-radius: 25px;
+    color: white;
+    padding: 15px; 
+    width: 230px; 
+    height: 53px;
+
+
+}
+
+.inputbutton {
+    border-style: none;
+    background-color: rgb(255, 118, 72);
+    border-radius: 25px;
+    color: white;
+    padding: 15px; 
+    width: 160px; 
+    height: 45px;
+
+}
+
+.inputsquare {
+    border-style: none;
+    background-color: rgb(255, 118, 72);
+    color: white;
+    padding: 15px; 
+    width: 160px; 
+    height: 45px;
+}
+
+.inputbutton:hover {
+    color: black; 
+    cursor: pointer;
+}
+
+.inputwhite:hover {
+    color: black; 
+    cursor: pointer;
+}
+
+.inputsquare:hover {
+    color: black; 
+    cursor: pointer;
+}
+
+.inputheader:hover {
+    color: black; 
+    cursor: pointer;
+}
+
+
+.inputflex {
+    display: flex;
+
+}
+
+.inputbox {
+    border-style: none;
+    width: 330px;
+    height: 25px;
+
+}
+
+.inputmsg {
+    border-style: none;
+    width: 330px;
+    height: 150px;
+
+}
+
+.sidefooter {
+    position: fixed;
+    background-color: rgb(244, 236, 225);
+    padding: 2.5;
+    width: 14%;
+    height: 50px;
+    top: 88%;
+    margin-left: 84%;
+    display: flex;
+    align-items: center;
+    font-family: 'Amatic Sc', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    
+
+}
+
+.footer {
+    background-color: black;
+    padding: 0.2%;
+    width: 86%;
+    margin-left: 5.5%;
+    margin-right: 20%;
+    top: 100;
+   
+
+}
+
+.footertxt {
+    color: lightgrey;
+    display: flex; 
+    font-size: 12px;
+}
+
+.footeralign {
+    display: flex; 
+    flex-direction: row;
+}
+
