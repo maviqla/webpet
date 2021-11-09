@@ -9,14 +9,22 @@ body {
     padding: 0;
 }
 
-img {
+#imghover {
     display: flex;
    
   }
 
-img:hover {
+#imghover:hover {
     cursor: pointer; 
     -webkit-filter: brightness(70%);
+}
+
+#icon {
+    display: flex;
+}
+
+#icon:hover {
+    cursor: pointer;
 }
 
 header {
@@ -26,6 +34,10 @@ header {
     height: 23px;
     position: fixed;
     top: 0;
+    z-index: 1000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #claw:hover {
@@ -37,6 +49,7 @@ header {
     font-weight: bolder;
     font-size: 16px; 
     color: black;
+   
 }   
    
 .headliner:hover {
@@ -59,6 +72,7 @@ header {
     font-family: 'Amatic Sc', sans-serif;
     font-weight: bold;
     font-size: 60px;
+    
 }
 
 .amatictxt {
@@ -96,7 +110,7 @@ header {
   z-index: 1; 
   top: 0; 
   left: 0;
-  background-color:whitesmoke;
+  background-color:white;
   overflow-x: hidden;
   padding-top: 20px;
   margin-left: 96.5%;
@@ -204,6 +218,11 @@ input {
 
 }
 
+.inputwhite:hover {
+    -webkit-filter: brightness(90%);
+}
+
+
 .inputheader {
     border-style: none;
     background-color: rgb(255, 118, 72);
@@ -289,6 +308,7 @@ input {
     font-family: 'Amatic Sc', sans-serif;
     font-weight: 400;
     font-size: 18px;
+    z-index: 1000000;
     
 
 }

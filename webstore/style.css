@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100px;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    
+}
+
+#ambeats {
+    font-family: Rajdhani, sans-serif;
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color:rgb(145, 175, 241);
+    letter-spacing: 0.2em;
+    padding: 0 10px;
+}
+
+#right-header {
+    float: right;
+}
+
+.home {
+    margin-top:20px;
+    font-weight: bold;
+    font-family: 'Zen Kurenaido';
+    color: white;
+    line-height: 57px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding: 0 10px;
+    background: transparent;
+    display: flex;
+    
+}
+
+.headertxt {
+    margin-top:20px;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:rgb(145, 175, 241);
+    line-height: 57px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding: 0 10px;
+    background: transparent;
+    display: flex;
+
+}
+
+.body {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    height: 608px;
+}
+
+#model {
+    width: 486px;
+    height: 608px;
+    object-position: 50% 50%;
+}
+
+.element {
+    width: auto;
+    height: 40px;
+}
+
+#frase {
+    font-family: Oswald;
+    font-size: 110px;
+    color: white;
+}
+
+
+.body2 {
+    justify-content: center;
+    background-color: white;
+    display: flex ;
+    height: 600px;
+}
+
+#produto {
+    width: 396px;
+    height: 552px;
+
+}
+
+h3 {
+    padding-top: 70px;
+    font-family: Rajdhani;
+    text-align: center;
+}
+
+h4 {
+    line-height: 1.5em;
+    font-family: Rajdhani;
+    color: black;
+}
+
+.text { 
+    vertical-align: baseline;
+    text-align: center;
+}
+
+.bodyproduto {
+    background-image: url("background.webp");
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto; 
+}
+
+#det {
+    margin:40px;
+    color: white;
+    text-align: center;
+    font-size: 130px;
+    font-family: 'Unica One';
+   
+}
+
+#bar {
+    margin-bottom: 30px;
+    background-color:rgb(46, 72, 88);
+    width: 105px;
+    height: 10px;
+    margin: 0px 0px 41px;
+}
+
+.element-table {
+    margin-bottom:30px;
+    display: flex;
+    color: grey;
+    font-weight: bold;
+}
+
+.element-table-p {
+    
+    display: flex;
+    color: grey;
+    font-weight: bold;
+}
+
+#titulo {
+    margin-left: 15px;
+    font-family: Rajdhani;
+}
+
+.bodylast {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact {
+    text-align: center;
+    color: rgb(46, 72, 88);
+    font-weight: bold;
+    font-family: Rajdhani;
+    font-size:120px;
+}
+
+.contact-box{
+    width: 350px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#divf {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.mensagem {
+    margin-left: 10px;
+    width:350px ;
+    height: 120px;
+}
+
+.enviar-contato {
+    margin-left: 83%; 
+    margin-right: 40%; 
+    padding: 15px; 
+    width: 125px; 
+    height: 45px; 
+    text-align: center; 
+    border: 0ch; 
+    background-color: rgb(20, 89, 136);
+    color: rgb(164, 198, 223);
+
+}
+.compreja-header {
+    padding: 15px; 
+    width: 125px; 
+    height: 45px; 
+    text-align: center; 
+    border: 0ch; 
+    background-color: rgb(14, 63, 95);
+    color: rgb(141, 177, 202);
+}
+
+.compreja-header:hover {
+    background-color: rgb(31, 88, 126);
+    cursor: pointer;
+
+}
+
+.compreja-header:active {
+    background-color: rgb(75, 119, 148);
+}
+
+
+
+.compreja-body {
+    margin-left: 40%; 
+    margin-right: 50%; 
+    padding: 15px; 
+    width: 125px; 
+    height: 45px; 
+    text-align: center; 
+    border: 0ch; 
+    background-color: rgb(14, 63, 95);
+    color: rgb(141, 177, 202);
+}
+
+.compreja-body:hover {
+    background-color: rgb(31, 88, 126);
+    cursor: pointer;
+
+}
+
+.compreja-body:active {
+    background-color: rgb(75, 119, 148);
+}
+
+.enviar-contato:hover {
+    background-color: rgb(31, 88, 126);
+    cursor: pointer;
+
+}
+
+.enviar-contat:active {
+    background-color: rgb(75, 119, 148);
+
+}
+
+.compreja-footer {
+    margin-left: 1%; 
+    margin-right: 100%; 
+    padding: 15px; 
+    width: 125px; 
+    height: 45px; 
+    text-align: center; 
+    border: 0ch; 
+    background-color: rgb(14, 63, 95);
+    color: rgb(141, 177, 202);
+}
+
+.compreja-footer:hover {
+    background-color: rgb(31, 88, 126);
+    cursor: pointer;
+
+}
+
+.compreja-footer:active {
+    background-color: rgb(75, 119, 148);
+}
+
+#editavel {
+    font-family: Rajdhani;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#editavel-2 {
+    text-align: center;
+    font-family: Rajdhani;
+    font-size: small;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#saiba-mais {
+    font-weight: bold;
+    font-family: Rajdhani;
+    color:  rgb(69, 69, 252);
+}
+
+.footer {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+    padding: 0.2%;
+    width: 99%;
+}
