@@ -7,8 +7,12 @@
 body {
     margin: 0;
     padding: 0;
+
 }
 
+main{
+    margin: 0 auto;
+}
 #imghover {
     display: flex;
    
@@ -29,21 +33,27 @@ body {
 
 header {
     background-color:white;
-    width: 99%;
+    width: 100%;
     padding: 23px;
     height: 23px;
     position: fixed;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 #claw:hover {
     background-image: url(orangeclaw.png);
 }
 
+.menu{
+    width: auto;
+    height: 23px;
+    margin-left: 130px;
+}
 .headliner {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
@@ -81,6 +91,9 @@ header {
 
 }
 
+.logo{
+    margin-left: 29px;
+}
 .montetxt {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -104,10 +117,10 @@ header {
 }
 
 .verticalright {
- height: 100%; 
+  height: 100%; 
   width: 140px; 
   position: fixed; 
-  z-index: 1; 
+  z-index: 0; 
   top: 0; 
   left: 0;
   background-color:white;
@@ -125,20 +138,27 @@ header {
 }
 
 .phonebox {
-    position: absolute;
-    background-color: black;
-    width: 10%;
+    width: 160px;
+    height: 23px;
+    background: black;
     height: 40px;
     color: white;
-    top: 0;
-    
+
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 0.05em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 78px;
 }
 
 .insidephone {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bolder;
-  letter-spacing: 0.05em;
+
+ 
 }
 
 .firstbox {
